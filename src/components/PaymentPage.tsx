@@ -6,7 +6,7 @@ interface PaymentPageProps {
 }
 
 const PaymentPage: React.FC<PaymentPageProps> = ({ onBack }) => {
-  const PAYMENT_LINK = 'https://short.payhero.co.ke/s/Dz6QTTVYBwoWUyDhjpFwfk';
+  const PAYMENT_LINK = 'https://short.payhero.co.ke/s/KDBAptbG73tmCwzzYEQDUu';
 
   const handlePayment = () => {
     window.location.href = PAYMENT_LINK;
